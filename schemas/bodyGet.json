@@ -1,0 +1,12 @@
+{
+    "title": "bodyGet Schema",
+    "type": "object",
+    "properties": {
+      "cpnid": { "type": "number" },
+      "cpnname": { "type": "string" },
+      "discount": { "type": "number" },
+      "location": { "type": "number" }
+    },
+    "additionalProperties": false,
+    "required": ["cpnid"]
+  }

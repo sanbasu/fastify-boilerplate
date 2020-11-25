@@ -1,0 +1,18 @@
+ {
+    
+    "dbConn":{
+      "dbtype" :"postgres",
+      "dburl" : "postgres://postgres:admin@localhost:5432/postgres",
+      "dblog" : false
+    },
+
+    "service": {
+        "srbaseURL" : "https://jsonplaceholder.typicode.com",
+        "srtimeout" : 100
+
+    },
+
+    "loglevel" : "info"
+    
+  }
+  
